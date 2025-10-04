@@ -1,7 +1,6 @@
 import type { SyntaxNode, Tree } from "@lezer/common";
 import type { Format, MarkdownViewMode, TokenLevel, Delimiter, TokenStatus, Field, DisplayBehaviour } from "src/enums";
 import { Line, RangeSet, RangeValue, Text, Range, SelectionRange, EditorState } from "@codemirror/state";
-import {} from "@codemirror/language";
 import { Decoration, DecorationSet } from "@codemirror/view";
 import { ColorComponent, Command, DropdownComponent, Editor, ExtraButtonComponent, IconName, MarkdownFileInfo, MarkdownView, Setting, SliderComponent, TextAreaComponent, TextComponent, ToggleComponent } from "obsidian";
 import ExtendedMarkdownSyntax from "main";
