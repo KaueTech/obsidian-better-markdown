@@ -1,3 +1,24 @@
+/* fix editor highlight colors */
+
+.theme-highlight-yellow .cm-line .cm-highlight,
+.cm-custom-highlight
+{
+
+     border-radius: 0 !important;
+}
+
+.theme-highlight-yellow .cm-line .cm-highlight
+{
+    background-color: transparent !important;
+
+}
+
+.cm-highlight.cm-link.cm-quote.cm-quote-1 {
+    padding-right: -20px;
+}
+
+/*  */
+
 .cm-ins {
 	text-decoration: underline;
 }
